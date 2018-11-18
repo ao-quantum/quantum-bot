@@ -6,4 +6,4 @@ Client.on ('ready', async () => {
   console.log(`${Client.user.username} is online`);
 });
 
-Client.login(process.env.token);
+Client.login('process.env.token');
