@@ -1,5 +1,5 @@
 const Discord = require("discord.js-commando");
 const Client = new Discord.Client();
-const clientconfig = require("/clientconfig.json");
+const clientconfig = require("./clientconfig.json");
 
-Client.login(clientconfig.token)
+Client.login(clientconfig.token);
