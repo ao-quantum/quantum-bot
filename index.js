@@ -6,4 +6,4 @@ Client.on ('ready', async () => {
   console.log(`${bot.user.username} is online`);
 });
 
-Client.login(clientconfig.token);
+Client.login(process.env.token);
